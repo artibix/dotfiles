@@ -601,7 +601,7 @@ start_tmux() {
 }
 
 # 调用函数启动 tmux
-# start_tmux
+start_tmux
 
 #------------------------------
 # External Configs
@@ -626,7 +626,7 @@ unset __conda_setup
 export PATH="$PATH:$HOME/.lmstudio/bin"
 
 # Initialize proxy by default (comment out if not needed)
-setproxy
+# setproxy
 
 clear
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
